@@ -8,14 +8,41 @@
 		<title>Tic Tac Toe Game</title>
 
 		<!-- external CSS link -->
-		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="./public/css/normalize.css">
+		<link rel="stylesheet" href="./public/css/style.css">
 	</head>
 	<body>
-		<h1>Tic Tac Toe Game. </h1>
-		<p>Welcome to the Tic Tac Toe Game. The rules for this game are simple: Choose either the X or O as your symbol. Once you have chosen your symbol, click the position in which you want to place your marker. The goal is to have three of your symbols in a row to win. THe orientation of these 'rows' may be diganoal or straight across, up or down across the board.</p>
+		<h1>Tic-Tac-Toe</h1>
+
+		<p> Welcome to the Tic Tac Toe game. The rules for this game are simple. Choose either the Button Eye or the Looking Stone as your board piece. Click on the board to place your piece. You need to have 3 of your board pieces in a row, for you to win.</p>
+		<p>Choose the Button Eye to play as the Other Mother or the Looking Stone to play as Coraline.</p> 
+
+		<section>
+			<!--This tells you whose turn it is to play-->
+			<h2 id="message">Other Mother's turn</h2> 
+
+			<!--Container for the board 
+			 	data indexing looks like this: 
+
+				0 1 2 
+				3 4 5 
+				6 7 8
+			-->
+			<div class="board">
+				<button class="cell" data-index="0"></button> 
+				<button class="cell" data-index="1"></button>
+				<button class="cell" data-index="2"></button>
+				<button class="cell" data-index="3"></button>
+				<button class="cell" data-index="4"></button>
+				<button class="cell" data-index="5"></button>
+				<button class="cell" data-index="6"></button>
+				<button class="cell" data-index="7"></button>
+				<button class="cell" data-index="8"></button>
+			</div>
+		</section> 
+	
 
 
-		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="./public/js/main.js"></script>
 	</body>
 </html>
