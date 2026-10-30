@@ -1,22 +1,20 @@
-# 📊 Morning Challenge: Tic-Tac-Toe
+IN-PROGRESS 
 
-### Goal: Create a two player Tic-Tac-Toe game. The users should be able to click to place their X or O and if they win the program should mention their win in the DOM. Please make the game as OOP as possible.
+This is a Coraline themed tic-tac-toe game. Play as the Other Mother using the Buttons as your board piece or as Coraline by using the Looking Stone on the board. 
 
-### How to submit your code for review:
+When this project is complete, you will be able to run it via the following instructions: 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+To play this game, please clone the repo by using: 
+
+git clone https://github.com/desithomas/tic-tac-toe.git
+
+Run the game by right clicking on index.html and opening it on your browser. 
+
+When this project is finished, it will be hosed via Netlify. 
+
+Tech Stack Used: 
+
+HTML
+CSS 
+JavaScript 
